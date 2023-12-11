@@ -1,0 +1,568 @@
+<!-- Før du endrer på koden må du huske at det er Halvi's Kode  -->
+
+<!-- Takk for at du spørr før du endrer -->
+
+<!-- luv u <3  -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>NightboxRP | Spiller Guide</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      href="https://i.imgur.com/P8EjZB8.png"
+    />
+    <bgsound src="https://i.imgur.com/ZXxryRx.gif" loop="infinite">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./aos/aos.css" />
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:title" content="NightboxRP | Spillerguide" />
+
+    <meta
+      property="og:description"
+      content="Her lærer du hvordan du kommer igang og hvordan du skal oppføre deg i rp på best mulig måte for både deg og andre!"
+    />
+
+    <meta property="og:image" content="https://i.imgur.com/P8EjZB8.png"/>
+
+    <meta name="theme-color" content="#42802d" />
+  </head>
+
+  <body>
+    <div id=""></div>
+
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <header>
+      <a href="/"> <img src="https://i.imgur.com/P8EjZB8.pngg">
+      <div class="navigation">
+        <ul class="menu">
+          <div class="close-btn"></div>
+         <li class="menu-item"><a href="/">Hjem</a></li>
+          <li class="menu-item">
+            <a class="sub-btn" href="#">Status <i class="fas fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="/spillere">Spillere</a></li>
+              <li class="sub-item"><a href="/status">Server</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a class="sub-btn" href="#">Søknader <i class="fas fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="/whitelist">Whitelist</a></li>
+              <li class="sub-item"><a href="/streamer">Stream-Tag</a></li>
+              <li class="sub-item"><a href="/staff">Staff</a></li>
+              <li class="sub-item more">
+                
+                <ul class="more-menu">
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="/discord">Discord</a></li>
+          <li class="menu-item"><a href="/regler">Regler</a></li>
+          <li class="menu-item"><a href="/doner">Doner</a></li>
+          <li class="menu-item"><a href="/lovdata">Lovdata</a></li>
+          <li class="menu-item"><a href="https://forum.nightboxrp.no">Forum</a></li>
+          <li class="menu-item">
+          </li>
+          <li class="menu-item">
+        </ul>
+      </div>
+      <div class="menu-btn"></div>
+    </header>
+    </div>
+    </div>
+
+     <script type="text/javascript">
+    //jquery for toggle dropdown menus
+    $(document).ready(function(){
+      //toggle sub-menus
+      $(".sub-btn").click(function(){
+        $(this).next(".sub-menu").slideToggle();
+      });
+
+      //toggle more-menus
+      $(".more-btn").click(function(){
+        $(this).next(".more-menu").slideToggle();
+      });
+    });
+
+    //javascript for the responsive navigation menu
+    var menu = document.querySelector(".menu");
+    var menuBtn = document.querySelector(".menu-btn");
+    var closeBtn = document.querySelector(".close-btn");
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.add("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove("active");
+    });
+
+    //javascript for the navigation bar effects on scroll
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+    </script>
+
+    <section class="features" id="500k">
+      <div class="max-width">
+        <h2 class="title">Hvordan koble til NightboxRP</h2>
+
+        <div class="features-content">
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-cogs"></i>
+
+              <div class="text"> >1< </div>
+              <p>
+                For det første må du Laste ned og installere FiveM: (https://fivem.net/) og last ned klienten som passer til (PC). Følg instruksjonene for å installere FiveM på datamaskinen. Deretter kan du søke opp serveren eller bruke F8 og skriv: connect game.nightboxrp.no
+
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >2< </div>
+              <p>
+                Det anbefales at du kjører full screen og extended texture budget på minimum 50%. Utenom dette må du velge grafikkinnstillinger etter hva din pc takler. 
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <section class="features" id="1m">
+      <div class="max-width">
+        <h2 class="title">Voice Chat</h2>
+
+        <div class="features-content">
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-cogs"></i>
+
+              <div class="text"> >1< </div>
+              <p>
+                Gå inn på settings i gta og videre til voice chat. Denne skal være på (ON) Sjekk også at det står riktig på output device(headsett) og input device (Mikrofon)
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >2< </div>
+              <p>
+                Voicechat mode skal stå på “Push to talk” 
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-music"></i>
+
+              <div class="text"> >3< </div>
+              <p>
+                Dersom du har problemer med å høre andre kan du prøve og slå av og på voice.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >4< </div>
+              <p>
+                Push to talk keybind endres inne på GTA online setting.(Denne brukes til vanlig prat og telefon) Radio knapp endres inne på keybinds FiveM (Talk over Radio) Her velger du knapper du liker.  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <section class="features" id="1m">
+      <div class="max-width">
+        <h2 class="title">Ved første gangs innlogging</h2>
+
+        <div class="features-content">
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-cogs"></i>
+
+              <div class="text"> >1< </div>
+              <p>
+                Det første du blir møtt med når du logger inn for første gang er at du må lage karakter
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >2< </div>
+              <img src="https://i.imgur.com/Bf7WAeH.png" width="300" height="150">
+              <p>
+                Der fyller du inn fornavn, etternavn,  kallenavn (liten betydning), nasjonalitet, fødselsdato (alle karakterer skal være over 18 år gamle, selv om du kanskje er 16 UAK.) Og kjønn. 
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-music"></i>
+
+              <div class="text"> >3< </div>
+              <p>
+                Neste steg vil du få mulighet til å velge “leilighet” og lage deg en karakter, det vil si endre utseende på karakteren din (klær, aldersmerker etc.) Dersom du opplever at det er hull i klær etc. Så endrer du hender/shorte til du finner noe som passer. Du skal heller ikke ta på deg typ bedrift/gjeng klær. For eksempel: vil du jobbe som politi, har du ikke tilgang til klær før du er ansatt.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<section class="features" id="1m">
+      <div class="max-width">
+        <h2 class="title">Keybinds og Commands</h2>
+
+        <div class="features-content">
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-cogs"></i>
+
+              <div class="text"> >1< </div>
+              <p>
+                Gjør deg kjent med inventory (TAB) Kan endres
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >2< </div>
+              <p>
+                F1 er interaksjon meny til garasje etc. Gjør deg kjent med denne og eventuelt endre keybinds 
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >3< </div>
+              <p>
+                F5 er en emote meny der du finner alle type gå stiler, danser og generelt emotes. Gjør deg kjent med denne til type visse situasjoner som for eksempel1: du skal ligge til en operasjon som pasient /e passout3 kan brukes her. eksempel 2: Du er gissel og blir bedt om å sette deg på knær, her passer /e surrender. Eksempel 3: du står på torget, noen kommer og peker pistol på deg, da må du ta henda opp i været /e handsup eller trykk på X 
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >4< </div>
+              <p>
+                F7 faktura meny, her får du bøter eller regninger fra bedrifter 
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >5< </div>
+              <p>
+                /givekeys - gir bilnøkler til en annen spiller (må stå ved førersiden nærme hverandre) 
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >6< </div>
+              <p>
+                /cashgive - gir kontanter til andre spillere i nærheten
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >7< </div>
+              <p>
+                M - for å få opp mobil 
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >8< </div>
+              <p>
+                Nummer 1-6 kan brukes for å dra frem items hurtigere 
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >9< </div>
+              <p>
+                X brukes til å avlsutte emote eller handlinger
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >10< </div>
+              <p>
+                Noen ganger kan du bli bedt om å vise ID Nummer da skriver du /ID 
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-music"></i>
+
+              <div class="text"> >11< </div>
+              <p>
+                Alt er en knapp som brukes mye til "øyet", for eksempel se på bil katalog eller nav dama
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >12< </div>
+              <p>
+                T brukes for å skrive enten,Commands /meg eller /UAK
+/Meg brukes til å forklare en handling du ikke kan utføre, forklare følelse eller handling. For eksempel ser på rompa til Dina. Eller pust og puls lav.
+/UAK skal kun brukes til tekniske problemer i eventuelt scenario. Eksempelvis du står på cella og får en viktig telefon  
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> UAK </div>
+              <p>
+                Kan du skrive /uak dere på cella, jeg må ta en rask telefon.  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  <section class="features" id="1m">
+      <div class="max-width">
+        <h2 class="title">Discord og Regler</h2>
+
+        <div class="features-content">
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-cogs"></i>
+
+              <div class="text"> >1< </div>
+              <p>
+                Først og fremst er det viktig at du som spiller velger å sette deg inn i regler vi har på serveren. De kan endres ved behov, men da vil det bli informert i våres Discord under viktig info.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >2< </div>
+              <p>
+                Inne på discorden vår har vi mulighet for at du kan opprette tickets med ting som ikke er veldig hast (spiller rapporter,små bugs, generelle forespørsler eller handling tickets) For å gjøre vår jobb enklere anbefales det at du bruker et klippe program som for eksempel MEDAL. Da vil det være mye lettere for oss å eventuelt ta tak i problemet. Gjerne prøv å forklar på en så god og detaljert måte som mulig om hva det dreier seg om.  
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-music"></i>
+
+              <div class="text"> >3< </div>
+              <p>
+                Dersom du trenger support eller blir bedt om å møte i support setter du deg i kanalen som heter venter på support, sørg for at du ikke gjør dette midt i et scenario. så blir du tatt videre til et support-rom av våre moderatorer eller admins da de har mulighet til det. Du skal ikke mase om at du venter på support, og de vil da hjelpe deg etter beste evne. Vi ønsker å ta dette på et saklig nivå og hjelpe til vår beste evne. ( Er det noe som ikke er veldig hast kan du opprette en ticket.)
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"> >4< </div>
+              <p>
+                Vi har også voice-rom der du kan henge og prate med andre spillere når dere ikke er koblet på serveren. Videre er det lurt å følge med på viktig info, changelog etc.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+
+              <div class="text"></div>
+              <p>
+                Når du er IK skal du være IK, ikke snakke uak for eksmepel du får en melding på skjermen din at du skal møte i support, skal ikke dette nevnes i karakter. Finn på en unnskylding for å trekke deg ut av scenarioet.   
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <section class="features" id="features">
+      <div class="max-width">
+        <h2 class="title">Credit</h2>
+
+        <div class="features-content">
+          <div class="card2">
+            <div class="box">
+              <i class="fas fa-terminal"></i>
+
+              <div class="text"></div>
+
+              <p>
+                 Pretz0n & Jakterinnen
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="loader-wrapper">
+      <img
+        src="https://cdn.discordapp.com/attachments/889523668252753931/928379313823313950/13335.gif"
+        alt="Loading..."
+      />
+
+      <div class="longfazers">
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+      </div>
+    </div>
+
+    <footer>
+      <a
+        style="display: none;"
+        href="//www.dmca.com/Protection/Status.aspx?ID=04da08e3-40f5-4320-8093-86b1c519bf13"
+        title="DMCA.com Protection Status"
+        class="dmca-badge"
+      >
+        <img
+          src="https://images.dmca.com/Badges/dmca-badge-w150-5x1-07.png?ID=04da08e3-40f5-4320-8093-86b1c519bf13"
+          alt="DMCA.com Protection Status"
+      /></a>
+      <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+
+      <a
+        style="display: none;"
+        href="https://www.dmca.com/compliance/Mikuni.gq"
+        title="DMCA Compliance information for Mikuni.gq"
+        ><img src="https://www.dmca.com/img/dmca-compliant-grayscale.png"
+      /></a>
+
+      <span
+        ><br />Copyright |<span class="far fa-copyright"></span> NightBoxRP | 2023 | Designed by Halvi</span
+      >
+    </footer>
+
+    <script src="./aos/aos.js"></script>
+
+    <script type="text/javascript">
+      AOS.init({
+        duration: 1000
+      });
+    </script>
+
+    <script src="script.js"></script>
+
+    <script src="stats.js"></script>
+
+    <script>
+      $(window).on("load", function() {
+        $(".loader-wrapper").fadeOut("slow");
+      });
+    </script>
+
+    <script src="./particles/particles.js"></script>
+
+    <script src="./particles/app.js"></script>
+  </body>
+</html>
