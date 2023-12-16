@@ -1,0 +1,333 @@
+<!-- Før du endrer på koden må du huske at det er Halvi's Kode  -->
+
+<!-- Takk for at du spørr før du endrer -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title> NightboxRP.no | Supportermedlemsskap </title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      href="https://i.imgur.com/P8EjZB8.png"
+    />
+    <bgsound src="" loop="infinite">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+    <script src="https://uptime.betterstack.com/widgets/announcement.js" data-id="170317" async="async" type="text/javascript"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./aos/aos.css" />
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:title" content=" NightboxRP.no | Supportermedlemsskap" />
+
+    <meta
+      property="og:description"
+      content="Alle penger går til å drifte og videreutvikle NightboxRP.no"
+    />
+
+    <meta property="og:image" content="https://i.imgur.com/P8EjZB8.png"/>
+
+    <meta name="theme-color" content="#42802d" />
+  </head>
+
+  <body>
+
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <header>
+      <a href="/"> <img src="https://i.imgur.com/P8EjZB8.pngg">
+      <div class="navigation">
+        <ul class="menu">
+          <div class="close-btn"></div>
+         <li class="menu-item"><a href="/">Hjem</a></li>
+          <li class="menu-item">
+            <a class="sub-btn" href="#">Status <i class="fas fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="/spillere">Spillere</a></li>
+              <li class="sub-item"><a href="/status">Server</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a class="sub-btn" href="#">Søknader <i class="fas fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="/whitelist">Whitelist</a></li>
+              <li class="sub-item"><a href="/streamer">Stream-Tag</a></li>
+              <li class="sub-item"><a href="/staff">Staff</a></li>
+              <li class="sub-item more">
+
+                <ul class="more-menu">
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="/discord">Discord</a></li>
+          <li class="menu-item"><a href="/regler">Regler</a></li>
+          <li class="menu-item"><a href="/doner">Doner</a></li>
+          <li class="menu-item"><a href="/lovdata">Lovdata</a></li>
+          <li class="menu-item"><a href="https://forum.nightboxrp.no">Forum</a></li>
+          <li class="menu-item">
+          </li>
+          <li class="menu-item">
+        </ul>
+      </div>
+      <div class="menu-btn"></div>
+    </header>
+    </div>
+    </div>
+
+     <script type="text/javascript">
+    //jquery for toggle dropdown menus
+    $(document).ready(function(){
+      //toggle sub-menus
+      $(".sub-btn").click(function(){
+        $(this).next(".sub-menu").slideToggle();
+      });
+
+      //toggle more-menus
+      $(".more-btn").click(function(){
+        $(this).next(".more-menu").slideToggle();
+      });
+    });
+
+    //javascript for the responsive navigation menu
+    var menu = document.querySelector(".menu");
+    var menuBtn = document.querySelector(".menu-btn");
+    var closeBtn = document.querySelector(".close-btn");
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.add("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove("active");
+    });
+
+    //javascript for the navigation bar effects on scroll
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+    </script>
+
+  </body>
+  <section class="features" id="features">
+    <div class="max-width">
+      <h2 class="title">Supporter</h2>
+
+      <div class="features-content">
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-cogs"></i>
+
+            <div class="text">Supporter I</div>
+
+            <p>
+              - Tilgang til Supporter-kanaler på Discord<br>
+              - Usensurerte og tidlig sneakpeaks<br>
+              - Egen Supporter I rolle på discord<br>
+              - Køpoeng: 50 (prioritert adgang til serveren)<br><br><br> <b>Pris: 10 EUR / 100 NOK</b>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-code"></i>
+
+            <div class="text">Supporter II</div>
+
+            <p>
+              - Tilgang til Supporter-kanaler på Discord<br>
+              - Usensurerte og tidlig sneakpeaks<br>
+              - Egen Supporter II rolle på discord<br>
+              - Ett stykk personlig bilskilt<br>
+              - Køpoeng: 50 (prioritert adgang til serveren)<br><br><br> <b>Pris: 20 EUR / 200 NOK</b>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-music"></i>
+
+            <div class="text">Supporter III</div>
+
+            <p>
+              - Tilgang til Supporter-kanaler på Discord<br>
+              - Usensurerte og tidlig sneakpeaks<br>
+              - Egen Supporter III rolle på discord<br>
+              - Ett stykk personlig bilskilt<br>
+              - Køpoeng: 70 (prioritert adgang til serveren)<br><br><br> <b>Pris: 30 EUR / 300 NOK</b>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-lock"></i>
+
+            <div class="text">Supporter IV</div>
+
+            <p>
+              - Tilgang til Supporter-kanaler på Discord<br>
+              - Usensurerte og tidlig sneakpeaks<br>
+              - Egen Supporter IV rolle på discord<br>
+              - To stykk personlig bilskilt<br>
+              - Køpoeng: 80 (prioritert adgang til serveren)<br><br><br> <b>Pris: 40 EUR / 400 NOK</b>
+            </p>
+          </div>
+        </div>
+
+        
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-terminal"></i>
+
+            <div class="text">Supporter V</div>
+
+            <p>
+              - Tilgang til å teste nye scripts, etc. på dev-server<br>
+              - Tilgang til Supporter-kanaler på Discord<br>
+              - Usensurerte og tidlig sneakpeaks<br>
+              - Egen Supporter V rolle på discord<br>
+              - Tre stykk personlig bilskilt<br>
+              - Køpoeng: 100 (prioritert adgang til serveren)<br><br><br> <b>Pris: 50 EUR / 500 NOK</b> 
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+  <section class="features" id="features">
+    <div class="max-width">
+      <h2 class="title">Hvordan donere?</h2>
+
+      <div class="features-content">
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-cogs"></i>
+
+            <div class="text">Vipps</div>
+
+            <p>
+              Det er mindre avgifter ved å bruke VIPPS. Derfor er også prisen lavere enn det ville vært å kjøpt via Tebex. Begge måter er fortsatt like gode, og går til det samme formålet.<br><br><br>
+              <img src="vipps.png" alt="Vipps QR-Kode" style="width:200px;height:200px;">  <br><br><br> <b>Vipps Nummer: #850619</b> <br><br><br> <b>Fremmgangsmåte:</b> <br><br>Skann QR-koden ovenfor, eller skriv inn vårt vippsnummer. - da får du opp alle supporter-medlemsskapene vi har.<br><br>Ta screenshot av kvitteringen - send den til en administrator for å motta din supporter-rolle. Supporter-rollen varer i 30 dager fra kjøpet er gjort. (Dette vil med tiden bli en automatisk prossess, men er ikke på plass helt enda!)
+
+            </p>
+          </div>
+          </div>
+
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-code"></i>
+
+            <div class="text">Tebex</div>
+
+            <p>
+              Her kan du bruke bankkort, paypal, etc. Dette er en automatisk tjeneste som oppdaterer roller, etc. for deg her på forumet. Medlemsskapene varer i 30 dager fra du kjøper de.<br><br><br>
+              <img src="tebex.png" alt="Tebex Logo" style="width:200px;height:200px;">  <br><br> <b>Link: nightboxrp.tebex.io/</b> <a href="https://nightboxrp.tebex.io" style="display:block;height:100%;width:100%"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <div class="loader-wrapper">
+      <img
+        src="https://cdn.discordapp.com/attachments/889523668252753931/928379313823313950/13335.gif"
+        alt="Loading..."
+      />
+
+
+      <iframe src="https://status.nightboxrp.no.halvi.site/badge?theme=dark" width="250" height="30" frameborder="0" scrolling="no"></iframe>
+
+
+      <div class="longfazers">
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+
+      </div>
+    </div>
+
+    <footer>
+      <a
+        style="display: none;"
+        href="//www.dmca.com/Protection/Status.aspx?ID=04da08e3-40f5-4320-8093-86b1c519bf13"
+        title="DMCA.com Protection Status"
+        class="dmca-badge"
+      >
+        <img
+          src="https://images.dmca.com/Badges/dmca-badge-w150-5x1-07.png?ID=04da08e3-40f5-4320-8093-86b1c519bf13"
+          alt="DMCA.com Protection Status"
+      /></a>
+      <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+<a href="//www.dmca.com/Protection/Status.aspx?ID=ba4862e2-8105-4588-9911-73f51cd55a2d" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w150-5x1-01.png?ID=//www.dmca.com/Protection/Status.aspx?ID=ba4862e2-8105-4588-9911-73f51cd55a2d" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+
+
+
+
+      <span
+        ><br />Copyright |<span class="far fa-copyright"></span> NightBoxRP | 2023 | <a href="https://halvi.site">Designed by Halvi</a></span
+      >
+    </footer>
+
+    <script src="./aos/aos.js"></script>
+
+    <script type="text/javascript">
+      AOS.init({
+        duration: 1000
+      });
+    </script>
+
+    <script src="script.js"></script>
+
+    <script src="stats.js"></script>
+
+    <script>
+      $(window).on("load", function() {
+        $(".loader-wrapper").fadeOut("slow");
+      });
+    </script>
+
+    <script src="./particles/particles.js"></script>
+
+    <script src="./particles/app.js"></script>
+  </body>
+</html>
